@@ -978,7 +978,7 @@ export const id = {
   chatMenu: {
     more: "Opsi chat",
     copy: "Salin",
-    addScheduledTask: "Tambahkan tugas terjadwal",
+    addScheduledTask: "Tambahkan tugas terjadwal…",
     compact: "Padatkan percakapan",
     compactEmpty: "Belum ada yang dapat dipadatkan",
     compactUnsupported:
@@ -6602,4 +6602,22 @@ export const id = {
     settingsDescription: "Ulangi penyiapan awal.",
     settingsOpen: "Buka",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

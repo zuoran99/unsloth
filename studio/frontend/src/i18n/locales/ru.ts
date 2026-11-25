@@ -882,7 +882,7 @@ export const ru = {
   chatMenu: {
     more: "Параметры чата",
     copy: "Копировать",
-    addScheduledTask: "Добавить запланированную задачу",
+    addScheduledTask: "Добавить запланированную задачу…",
     compact: "Сжать беседу",
     compactEmpty: "Пока нечего сжимать",
     compactUnsupported: "Для сжатия нужна модель GGUF или MLX с поддержкой инструментов",
@@ -6221,4 +6221,22 @@ export const ru = {
     settingsDescription: "Пройти первоначальную настройку заново.",
     settingsOpen: "Открыть",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

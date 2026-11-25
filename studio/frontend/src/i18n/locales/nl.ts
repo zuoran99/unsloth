@@ -989,7 +989,7 @@ export const nl = {
   chatMenu: {
     more: "Chatopties",
     copy: "Kopiëren",
-    addScheduledTask: "Geplande taak toevoegen",
+    addScheduledTask: "Geplande taak toevoegen…",
     compact: "Gesprek comprimeren",
     compactEmpty: "Nog niets om te comprimeren",
     compactUnsupported:
@@ -6659,4 +6659,22 @@ export const nl = {
     settingsDescription: "Doorloop de eerste installatie opnieuw.",
     settingsOpen: "Openen",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

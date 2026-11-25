@@ -882,7 +882,7 @@ export const ko = {
   chatMenu: {
     more: "채팅 옵션",
     copy: "복사",
-    addScheduledTask: "예약 작업 추가",
+    addScheduledTask: "예약 작업 추가…",
     compact: "대화 압축",
     compactEmpty: "아직 압축할 내용이 없습니다",
     compactUnsupported: "대화 압축에는 도구를 지원하는 GGUF 또는 MLX 모델이 필요합니다",
@@ -6182,4 +6182,22 @@ export const ko = {
     settingsDescription: "처음 설정을 다시 진행합니다.",
     settingsOpen: "열기",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

@@ -986,7 +986,7 @@ export const pl = {
   chatMenu: {
     more: "Opcje czatu",
     copy: "Kopiuj",
-    addScheduledTask: "Dodaj zaplanowane zadanie",
+    addScheduledTask: "Dodaj zaplanowane zadanie…",
     compact: "Kompaktuj rozmowę",
     compactEmpty: "Nie ma jeszcze czego kompaktować",
     compactUnsupported:
@@ -6653,4 +6653,22 @@ export const pl = {
     settingsDescription: "Przejdź ponownie przez pierwszą konfigurację.",
     settingsOpen: "Otwórz",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

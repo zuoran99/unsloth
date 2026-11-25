@@ -980,7 +980,7 @@ export const vi = {
   chatMenu: {
     more: "Tùy chọn cuộc trò chuyện",
     copy: "Sao chép",
-    addScheduledTask: "Thêm tác vụ đã lên lịch",
+    addScheduledTask: "Thêm tác vụ đã lên lịch…",
     compact: "Thu gọn cuộc trò chuyện",
     compactEmpty: "Chưa có gì để thu gọn",
     compactUnsupported:
@@ -6600,4 +6600,22 @@ export const vi = {
     settingsDescription: "Xem lại phần thiết lập ban đầu.",
     settingsOpen: "Mở",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

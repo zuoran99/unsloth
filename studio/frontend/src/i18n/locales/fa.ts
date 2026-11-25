@@ -976,7 +976,7 @@ export const fa = {
   chatMenu: {
     more: "گزینه‌های گفتگو",
     copy: "کپی",
-    addScheduledTask: "افزودن کار زمان‌بندی‌شده",
+    addScheduledTask: "افزودن کار زمان‌بندی‌شده…",
     compact: "فشرده‌سازی گفتگو",
     compactEmpty: "هنوز چیزی برای فشرده‌سازی وجود ندارد",
     compactUnsupported:
@@ -6574,4 +6574,22 @@ export const fa = {
     settingsDescription: "راه‌اندازی اولیه را دوباره مرور کنید.",
     settingsOpen: "باز کردن",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

@@ -883,7 +883,7 @@ export const ja = {
   chatMenu: {
     more: "チャットのオプション",
     copy: "コピー",
-    addScheduledTask: "スケジュールタスクを追加",
+    addScheduledTask: "スケジュールタスクを追加…",
     compact: "会話を圧縮",
     compactEmpty: "まだ圧縮する内容がありません",
     compactUnsupported: "会話の圧縮にはツール対応のGGUFまたはMLXモデルが必要です",
@@ -6142,4 +6142,22 @@ export const ja = {
     settingsDescription: "初回セットアップをもう一度確認します。",
     settingsOpen: "開く",
   },
+  runSettings: {
+    memory: "Memory",
+    speed: "Speed",
+    output: "Output",
+    server: "Server",
+    auto: "auto",
+    specDraftTokens: "Speculative decoding draft tokens",
+    promptBatchSize: "Prompt batch size",
+    promptMicroBatchSize: "Prompt micro-batch size",
+    tensorParallelism: "Tensor Parallelism",
+    checkpointsPerSlot: "Context checkpoints per slot",
+    hostCacheMiB: "Host prompt cache size in MiB",
+    extraArgs: "Extra llama-server arguments",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 argument",
+    extraArgsCountMany: "{count} arguments",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;

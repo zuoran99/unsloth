@@ -929,7 +929,7 @@ export const zhTW = {
   chatMenu: {
     more: "聊天選項",
     copy: "複製",
-    addScheduledTask: "新增排程任務",
+    addScheduledTask: "新增排程任務…",
     compact: "壓縮對話",
     compactEmpty: "目前還沒有可壓縮的內容",
     compactUnsupported: "壓縮需要支援工具的 GGUF 或 MLX 模型",
@@ -6272,4 +6272,22 @@ export const zhTW = {
     settingsDescription: "重新進行首次設定。",
     settingsOpen: "開啟",
   },
+  runSettings: {
+    memory: "内存",
+    speed: "速度",
+    output: "输出",
+    server: "服务端",
+    auto: "自动",
+    specDraftTokens: "投机解码草稿 token 数",
+    promptBatchSize: "提示词批大小",
+    promptMicroBatchSize: "提示词微批大小",
+    tensorParallelism: "张量并行",
+    checkpointsPerSlot: "每个槽位的上下文检查点数",
+    hostCacheMiB: "主机提示词缓存大小（MiB）",
+    extraArgs: "额外的 llama-server 参数",
+    extraArgsPlaceholder: "--rope-scaling yarn --yarn-orig-ctx 32768",
+    extraArgsCountOne: "1 个参数",
+    extraArgsCountMany: "{count} 个参数",
+  },
+
 } satisfies DeepPartialMessageTree<typeof en>;
